@@ -1,1 +1,1 @@
-console.log(93487934)
+console.log("XSS")
