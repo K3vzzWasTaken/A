@@ -9,8 +9,8 @@ xhr.setRequestHeader('Content-Type', 'application/json');
 
 // Definir los datos que se van a enviar en la solicitud
 const data = {
-    newPassword: "pwned",
-    confirmedNewPassword: "pwned"
+    newPassword: P@wn3d!",
+    confirmedNewPassword: "P@wn3d!"
 };
 
 // Enviar la petición con los datos JSON
