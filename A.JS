@@ -9,7 +9,7 @@ xhr.setRequestHeader('Content-Type', 'application/json');
 
 // Definir los datos que se van a enviar en la solicitud
 const data = {
-    newPassword: P@wn3d!",
+    newPassword: "P@wn3d!",
     confirmedNewPassword: "P@wn3d!"
 };
 
