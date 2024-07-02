@@ -13,6 +13,9 @@ const data = {
     confirmedNewPassword: "Pwn3d!"
 };
 
+// Convertir los datos a formato JSON
+const jsonData = JSON.stringify(data);
+
 // Enviar la petición con los datos JSON
 xhr.send(jsonData);
 
