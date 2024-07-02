@@ -1,1 +1,1 @@
-console.log("XSS")
+alert("Hackmetrix XSS PoC");
