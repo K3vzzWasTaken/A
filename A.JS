@@ -1,1 +1,3 @@
-alert(document.cookie);
+const userId = localStorage.getItem('userId');
+
+console.log(userId);
